@@ -1,0 +1,15 @@
+{
+  "name": "hello_222211111",
+  "version": "1.0.0",
+  "description": "test for pulish a npm package",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hello",
+    "test"
+  ],
+  "author": "jacky zheng",
+  "license": "ISC"
+}

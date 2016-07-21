@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="lib/React/react.js" ></script>
+    <script src="lib/React/react-dom.js"></script>
+    <script src="lib/React/browser.min.js"></script>
+  </head>
+  <body>
+    <div id="container"></div>
+    <script type="text/babel">
+      var MyCompo = React.createClass({
+        render:function(){
+          return <h2>ZiyING</h2>;
+        }
+      });
+      ReactDOM.render(<MyCompo />,
+        document.getElementById('container')
+      );
+    </script>
+  </body>
+</html>

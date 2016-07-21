@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="lib/React/react.js" ></script>
+    <script src="lib/React/react-dom.js"></script>
+    <script src="lib/React/browser.min.js"></script>
+  </head>
+  <body>
+    <div id="container"></div>
+    <div id="container2"></div>
+    <script type="text/babel">
+      var me = React.createElement('h1',null,'I love you!!!!');
+      ReactDOM.render(me,document.getElementById('container'));
+      me = <h1>Can you Spell it?</h1>;
+      ReactDOM.render(me,document.getElementById('container2'));
+    </script>
+  </body>
+</html>
