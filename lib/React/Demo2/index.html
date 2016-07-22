@@ -10,12 +10,15 @@
   <div id="container"></div>
   <script type="text/babel">
     {
-      var arr=[
-        <h1>Hello,World!</h1>
-        ,<h1>I love you,ziying!</h1>
-      ];
+      var names=['jacky','stone','sandy'];
       ReactDOM.render(
-        arr[1]
+        <div>
+        {
+          names.map(function(name){
+              return <div>Hello,{name}</div>;
+            })
+        }
+        </div>
         ,document.getElementById('container')
       );
     }
